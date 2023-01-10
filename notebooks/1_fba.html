@@ -18550,7 +18550,7 @@ YKL184W, new growth rate 0.287866
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[74]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[86]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#when I selectively knockout the reaction GRTT, I get no growth of my model</span>
@@ -18559,7 +18559,7 @@ YKL184W, new growth rate 0.287866
     <span class="n">grtt</span><span class="o">.</span><span class="n">knock_out</span><span class="p">()</span>
     <span class="n">model_yeast</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1"> blocked (bounds: </span><span class="si">%s</span><span class="s1">), new growth rate </span><span class="si">%f</span><span class="s1">&#39;</span> <span class="o">%</span>
-            <span class="p">(</span><span class="n">reaction</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">reaction</span><span class="o">.</span><span class="n">bounds</span><span class="p">),</span> <span class="n">model_yeast</span><span class="o">.</span><span class="n">objective</span><span class="o">.</span><span class="n">value</span><span class="p">))</span>
+            <span class="p">(</span><span class="n">grtt</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">reaction</span><span class="o">.</span><span class="n">bounds</span><span class="p">),</span> <span class="n">model_yeast</span><span class="o">.</span><span class="n">objective</span><span class="o">.</span><span class="n">value</span><span class="p">))</span>
     
 <span class="c1">#when I selectively knockout the reaction DMATT, I get no growth of my model</span>
 <span class="k">with</span> <span class="n">model_yeast</span> <span class="k">as</span> <span class="n">model_yeast</span><span class="p">:</span>  <span class="c1">#not to edit the original model</span>
@@ -18567,7 +18567,7 @@ YKL184W, new growth rate 0.287866
     <span class="n">dmatt</span><span class="o">.</span><span class="n">knock_out</span><span class="p">()</span>
     <span class="n">model_yeast</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1"> blocked (bounds: </span><span class="si">%s</span><span class="s1">), new growth rate </span><span class="si">%f</span><span class="s1">&#39;</span> <span class="o">%</span>
-            <span class="p">(</span><span class="n">reaction</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">reaction</span><span class="o">.</span><span class="n">bounds</span><span class="p">),</span> <span class="n">model_yeast</span><span class="o">.</span><span class="n">objective</span><span class="o">.</span><span class="n">value</span><span class="p">))</span>
+            <span class="p">(</span><span class="n">dmatt</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">reaction</span><span class="o">.</span><span class="n">bounds</span><span class="p">),</span> <span class="n">model_yeast</span><span class="o">.</span><span class="n">objective</span><span class="o">.</span><span class="n">value</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -18589,8 +18589,8 @@ YKL184W, new growth rate 0.287866
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>PYRDC blocked (bounds: (0.0, 999999.0)), new growth rate 0.000000
-PYRDC blocked (bounds: (0.0, 999999.0)), new growth rate 0.000000
+<pre>GRTT blocked (bounds: (0.0, 999999.0)), new growth rate 0.000000
+DMATT blocked (bounds: (0.0, 999999.0)), new growth rate 0.000000
 </pre>
 </div>
 </div>
