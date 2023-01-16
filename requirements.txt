@@ -1,4 +1,3 @@
-os
 cobrapy
 matplotlib
 numpy
