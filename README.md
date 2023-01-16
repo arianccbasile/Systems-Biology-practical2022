@@ -1,4 +1,6 @@
 # Systems-Biology-practical2022
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arianccbasile/Systems-Biology-practical2022/HEAD)
+
 
 Practical exercises for the computational session on microbial community modeling.
 
