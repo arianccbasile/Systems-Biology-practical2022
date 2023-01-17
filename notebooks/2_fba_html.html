@@ -15179,50 +15179,50 @@ Let's optimize to check the growth in the given medium.</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;YPR191W&#39;,
- &#39;YLR038C&#39;,
- &#39;YDL004W&#39;,
- &#39;YFR033C&#39;,
- &#39;YDL067C&#39;,
+<pre>[&#39;YGL187C&#39;,
  &#39;YLR295C&#39;,
- &#39;YBR039W&#39;,
- &#39;YKR097W&#39;,
- &#39;Q0130&#39;,
- &#39;YLL041C&#39;,
- &#39;YDL181W&#39;,
- &#39;YBR196C&#39;,
- &#39;YDR050C&#39;,
- &#39;YLR395C&#39;,
- &#39;YMR256C&#39;,
- &#39;YDR529C&#39;,
- &#39;YPL078C&#39;,
- &#39;YGL191W&#39;,
- &#39;YPL262W&#39;,
- &#39;Q0045&#39;,
- &#39;YPL271W&#39;,
- &#39;YGR183C&#39;,
- &#39;YER065C&#39;,
- &#39;YJR121W&#39;,
- &#39;Q0250&#39;,
- &#39;YDR298C&#39;,
- &#39;Q0085&#39;,
- &#39;YHR051W&#39;,
- &#39;YJL166W&#39;,
- &#39;YCR012W&#39;,
- &#39;YLR377C&#39;,
  &#39;Q0275&#39;,
+ &#39;YBR196C&#39;,
  &#39;Q0080&#39;,
- &#39;YBL045C&#39;,
  &#39;YKL060C&#39;,
- &#39;Q0105&#39;,
- &#39;YML081C_A&#39;,
- &#39;YHR001W_A&#39;,
+ &#39;YJL166W&#39;,
+ &#39;YGR183C&#39;,
+ &#39;YDL004W&#39;,
  &#39;YBL099W&#39;,
- &#39;YEL024W&#39;,
- &#39;YOR065W&#39;,
+ &#39;YML081C_A&#39;,
+ &#39;YBL045C&#39;,
+ &#39;YDR529C&#39;,
+ &#39;Q0130&#39;,
  &#39;YKL016C&#39;,
+ &#39;YCR012W&#39;,
  &#39;YDR377W&#39;,
- &#39;YGL187C&#39;]</pre>
+ &#39;YER065C&#39;,
+ &#39;Q0085&#39;,
+ &#39;YLR395C&#39;,
+ &#39;YJR121W&#39;,
+ &#39;YKR097W&#39;,
+ &#39;YBR039W&#39;,
+ &#39;YEL024W&#39;,
+ &#39;YMR256C&#39;,
+ &#39;YGL191W&#39;,
+ &#39;YLR038C&#39;,
+ &#39;YPL078C&#39;,
+ &#39;Q0250&#39;,
+ &#39;YDL067C&#39;,
+ &#39;Q0045&#39;,
+ &#39;Q0105&#39;,
+ &#39;YPL271W&#39;,
+ &#39;YPR191W&#39;,
+ &#39;YHR051W&#39;,
+ &#39;YFR033C&#39;,
+ &#39;YHR001W_A&#39;,
+ &#39;YPL262W&#39;,
+ &#39;YLL041C&#39;,
+ &#39;YOR065W&#39;,
+ &#39;YLR377C&#39;,
+ &#39;YDR050C&#39;,
+ &#39;YDL181W&#39;,
+ &#39;YDR298C&#39;]</pre>
 </div>
 
 </div>
@@ -15338,19 +15338,19 @@ Let's optimize to check the growth in the given medium.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model_yeastv3</span><span class="o">=</span><span class="n">model_yeast</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
-<span class="n">oxygen_concentrations</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">400</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
-<span class="n">oxygen_concentrations</span> <span class="o">=</span> <span class="p">[</span> <span class="n">x</span> <span class="o">/</span> <span class="mi">100</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">oxygen_concentrations</span><span class="p">]</span>
+<span class="n">oxygen_uptakes</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">400</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">oxygen_uptakes</span> <span class="o">=</span> <span class="p">[</span> <span class="n">x</span> <span class="o">/</span> <span class="mi">100</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">oxygen_uptakes</span><span class="p">]</span>
 <span class="n">etoh_prod</span><span class="o">=</span><span class="p">[]</span>
 
-<span class="k">for</span> <span class="n">conc</span> <span class="ow">in</span> <span class="n">oxygen_concentrations</span><span class="p">:</span>
+<span class="k">for</span> <span class="n">flux</span> <span class="ow">in</span> <span class="n">oxygen_uptakes</span><span class="p">:</span>
     <span class="n">medium</span> <span class="o">=</span> <span class="n">model_yeastv3</span><span class="o">.</span><span class="n">medium</span>
     <span class="n">medium</span><span class="p">[</span><span class="s2">&quot;EX_glc__D_e&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">15</span>
-    <span class="n">medium</span><span class="p">[</span><span class="s2">&quot;EX_o2_e&quot;</span><span class="p">]</span><span class="o">=</span><span class="n">conc</span>
+    <span class="n">medium</span><span class="p">[</span><span class="s2">&quot;EX_o2_e&quot;</span><span class="p">]</span><span class="o">=</span><span class="n">flux</span>
     <span class="n">model_yeastv3</span><span class="o">.</span><span class="n">medium</span> <span class="o">=</span> <span class="n">medium</span>
     <span class="n">opt</span><span class="o">=</span><span class="n">model_yeastv3</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
     <span class="n">etoh_prod</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">opt</span><span class="o">.</span><span class="n">fluxes</span><span class="p">[</span><span class="s2">&quot;EX_etoh_e&quot;</span><span class="p">])</span>
@@ -15378,11 +15378,11 @@ Let's optimize to check the growth in the given medium.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="n">x_axis</span><span class="o">=</span><span class="n">oxygen_concentrations</span>
+<span class="n">x_axis</span><span class="o">=</span><span class="n">oxygen_uptakes</span>
 <span class="n">y_axis</span><span class="o">=</span><span class="n">etoh_prod</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_axis</span><span class="p">,</span> <span class="n">y_axis</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Crabtree effect on yeast model&#39;</span><span class="p">)</span>
@@ -15431,7 +15431,7 @@ jp-needs-light-background
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#if you want you can try similar analyses using different carbon sources, e.g. succinate</span>
@@ -15439,22 +15439,22 @@ jp-needs-light-background
 
 <span class="n">model_yeastv3</span><span class="o">=</span><span class="n">model_yeast</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
-<span class="n">oxygen_concentrations</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">400</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
-<span class="n">oxygen_concentrations</span> <span class="o">=</span> <span class="p">[</span> <span class="n">x</span> <span class="o">/</span> <span class="mi">100</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">oxygen_concentrations</span><span class="p">]</span>
+<span class="n">oxygen_uptakes</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">400</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">oxygen_uptakes</span> <span class="o">=</span> <span class="p">[</span> <span class="n">x</span> <span class="o">/</span> <span class="mi">100</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">oxygen_uptakes</span><span class="p">]</span>
 <span class="n">etoh_prod</span><span class="o">=</span><span class="p">[]</span>
 
-<span class="k">for</span> <span class="n">conc</span> <span class="ow">in</span> <span class="n">oxygen_concentrations</span><span class="p">:</span>
+<span class="k">for</span> <span class="n">flux</span> <span class="ow">in</span> <span class="n">oxygen_uptakes</span><span class="p">:</span>
     <span class="n">medium</span> <span class="o">=</span> <span class="n">model_yeastv3</span><span class="o">.</span><span class="n">medium</span>
     <span class="n">medium</span><span class="p">[</span><span class="s2">&quot;EX_glc__D_e&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="n">medium</span><span class="p">[</span><span class="s2">&quot;EX_man_e&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">15</span>
-    <span class="n">medium</span><span class="p">[</span><span class="s2">&quot;EX_o2_e&quot;</span><span class="p">]</span><span class="o">=</span><span class="n">conc</span>
+    <span class="n">medium</span><span class="p">[</span><span class="s2">&quot;EX_o2_e&quot;</span><span class="p">]</span><span class="o">=</span><span class="n">flux</span>
     <span class="n">model_yeastv3</span><span class="o">.</span><span class="n">medium</span> <span class="o">=</span> <span class="n">medium</span>
     <span class="n">opt</span><span class="o">=</span><span class="n">model_yeastv3</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
     <span class="n">etoh_prod</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">opt</span><span class="o">.</span><span class="n">fluxes</span><span class="p">[</span><span class="s2">&quot;EX_etoh_e&quot;</span><span class="p">])</span>
 
     
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="n">x_axis</span><span class="o">=</span><span class="n">oxygen_concentrations</span>
+<span class="n">x_axis</span><span class="o">=</span><span class="n">oxygen_uptakes</span>
 <span class="n">y_axis</span><span class="o">=</span><span class="n">etoh_prod</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_axis</span><span class="p">,</span> <span class="n">y_axis</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Crabtree effect on yeast model, using D-mannose as carbon source&#39;</span><span class="p">)</span>
