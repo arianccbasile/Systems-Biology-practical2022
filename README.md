@@ -8,4 +8,4 @@ In the folder called notebooks you will find everything you need for these pract
 
 
 
-Feel free to get in touch with me raising an issue or sending me an e-mail at ab2851@mrc-tox.cam.ac.uk.
+Feel free to get in touch with me raising an issue or sending an e-mail at ab2851@mrc-tox.cam.ac.uk.
