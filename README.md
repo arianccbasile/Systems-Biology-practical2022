@@ -48,11 +48,18 @@ Alternatively launch an interactive binder session by clicking below:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/franciscozorrilla/systems-biology-fba-practical/HEAD)
 
-## ☎️ Contact
+## 🧠 Further exercises
 
-Feel free to get in touch with us by raising an issue or sending an e-mail to Arianna Basile (ab2851@mrc-tox.cam.ac.uk) or Francisco Zorrilla (fz274@cam.ac.uk).
+* [metaGEM](https://github.com/franciscozorrilla/unseenbio_metaGEM): Metagenomics-driven metabolic modelling tutorial using unseen bio samples
+* [SymbNET](https://github.com/franciscozorrilla/SymbNET): From metagenomics to metabolic Interactions 
+* [EMBOMicroCom](https://github.com/franciscozorrilla/EMBOMicroCom): Metabolite and species dynamics in microbial communities
 
 ## 👷 Contributors
 
 * Originally developed by Arianna Basile and Kiran Patil in 2022
 * Updated by Francisco Zorrilla and Arianna Basile in 2024
+
+
+## ☎️ Contact
+
+Feel free to get in touch with us by raising an issue or sending an e-mail to Arianna Basile (ab2851@mrc-tox.cam.ac.uk) or Francisco Zorrilla (fz274@cam.ac.uk).
