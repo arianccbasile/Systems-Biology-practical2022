@@ -16,6 +16,18 @@ You may run these exercises on your local machine by cloning this repo:
 $ git clone https://github.com/franciscozorrilla/systems-biology-fba-practical.git
 ```
 
+Navigate into cloned repo folder:
+
+```
+$ cd systems-biology-fba-practical
+```
+
+Launch interactive jupyter notebook session:
+
+```
+$ jupyter notebook
+```
+
 ### Running on the cloud 
 
 Alternatively launch an interactive binder session by clicking below:
