@@ -1,15 +1,18 @@
 # 2. Playing around with media conditions
 
-Authors: 
+## Authors
 * Arianna Basile, MRC Toxicology Unit, University of Cambridge
 * Francisco Zorrilla, MRC Toxicology Unit, University of Cambridge
 
-__________________________________________________________________________________________________________________
-In this tutorial:
+## Learning outcomes
+
+In this tutorial you will use [cobrapy](https://cobrapy.readthedocs.io/en/latest/) to learn the following:
+
 - **2.1**: Modify growth medium of your reconstruction
 - **2.2**: Perform gene essentiality analysis under different conditions
 - **2.3**: Case study, simulate the Carbtree effect in yeast
 
+## Setup
 
 
 ```python
@@ -203,50 +206,50 @@ list(set(id_essential_genes_v2) - set(id_essential_genes))
 
 
 
-    ['YLR295C',
-     'YGL187C',
-     'Q0275',
-     'YDR298C',
-     'YDR529C',
-     'YKL016C',
-     'YFR033C',
-     'Q0080',
-     'YLR377C',
-     'YEL024W',
-     'YDR377W',
+    ['Q0130',
+     'YBL099W',
+     'YPL271W',
+     'YGL191W',
      'YCR012W',
-     'YDR050C',
+     'YFR033C',
+     'YHR001W_A',
+     'YML081C_A',
+     'YER065C',
+     'YBR196C',
+     'YMR256C',
+     'YGR183C',
      'YBL045C',
      'YKL060C',
-     'YLL041C',
-     'YJR121W',
-     'YPR191W',
-     'Q0105',
-     'YHR051W',
-     'YDL067C',
-     'YGR183C',
-     'YBR196C',
-     'YDL004W',
-     'YLR395C',
-     'YPL271W',
-     'Q0045',
-     'YBR039W',
-     'Q0250',
-     'Q0085',
-     'YPL262W',
-     'YML081C_A',
-     'Q0130',
-     'YKR097W',
-     'YBL099W',
-     'YGL191W',
-     'YJL166W',
-     'YHR001W_A',
      'YPL078C',
      'YLR038C',
-     'YMR256C',
+     'YDL067C',
+     'YDR050C',
+     'Q0080',
+     'YLR377C',
+     'YPR191W',
+     'Q0250',
+     'YDL004W',
+     'YJR121W',
+     'YEL024W',
      'YDL181W',
+     'Q0275',
      'YOR065W',
-     'YER065C']
+     'YDR529C',
+     'YDR377W',
+     'Q0045',
+     'YDR298C',
+     'YHR051W',
+     'YKR097W',
+     'YBR039W',
+     'YLR295C',
+     'YGL187C',
+     'YLR395C',
+     'Q0105',
+     'Q0085',
+     'YPL262W',
+     'YLL041C',
+     'YKL016C',
+     'YJL166W']
 
 
 

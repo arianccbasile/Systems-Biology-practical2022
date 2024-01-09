@@ -383,15 +383,37 @@
 \section{2. Playing around with media
 conditions}\label{playing-around-with-media-conditions}}
 
-    Authors: * Arianna Basile, MRC Toxicology Unit, University of Cambridge
-* Francisco Zorrilla, MRC Toxicology Unit, University of Cambridge
+    \hypertarget{authors}{%
+\subsection{Authors}\label{authors}}
 
-    \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{itemize}
+\tightlist
+\item
+  Arianna Basile, MRC Toxicology Unit, University of Cambridge
+\item
+  Francisco Zorrilla, MRC Toxicology Unit, University of Cambridge
+\end{itemize}
 
-In this tutorial: - \textbf{2.1}: Modify growth medium of your
-reconstruction - \textbf{2.2}: Perform gene essentiality analysis under
-different conditions - \textbf{2.3}: Case study, simulate the Carbtree
-effect in yeast
+    \hypertarget{learning-outcomes}{%
+\subsection{Learning outcomes}\label{learning-outcomes}}
+
+In this tutorial you will use
+\href{https://cobrapy.readthedocs.io/en/latest/}{cobrapy} to learn the
+following:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{2.1}: Modify growth medium of your reconstruction
+\item
+  \textbf{2.2}: Perform gene essentiality analysis under different
+  conditions
+\item
+  \textbf{2.3}: Case study, simulate the Carbtree effect in yeast
+\end{itemize}
+
+\hypertarget{setup}{%
+\subsection{Setup}\label{setup}}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 \prompt{In}{incolor}{1}{\boxspacing}
@@ -652,50 +674,50 @@ Essential genes unique to ethanol growth condition: 44
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
 \prompt{Out}{outcolor}{9}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
-['YLR295C',
- 'YGL187C',
- 'Q0275',
- 'YDR298C',
- 'YDR529C',
- 'YKL016C',
- 'YFR033C',
- 'Q0080',
- 'YLR377C',
- 'YEL024W',
- 'YDR377W',
+['Q0130',
+ 'YBL099W',
+ 'YPL271W',
+ 'YGL191W',
  'YCR012W',
- 'YDR050C',
+ 'YFR033C',
+ 'YHR001W\_A',
+ 'YML081C\_A',
+ 'YER065C',
+ 'YBR196C',
+ 'YMR256C',
+ 'YGR183C',
  'YBL045C',
  'YKL060C',
- 'YLL041C',
- 'YJR121W',
- 'YPR191W',
- 'Q0105',
- 'YHR051W',
- 'YDL067C',
- 'YGR183C',
- 'YBR196C',
- 'YDL004W',
- 'YLR395C',
- 'YPL271W',
- 'Q0045',
- 'YBR039W',
- 'Q0250',
- 'Q0085',
- 'YPL262W',
- 'YML081C\_A',
- 'Q0130',
- 'YKR097W',
- 'YBL099W',
- 'YGL191W',
- 'YJL166W',
- 'YHR001W\_A',
  'YPL078C',
  'YLR038C',
- 'YMR256C',
+ 'YDL067C',
+ 'YDR050C',
+ 'Q0080',
+ 'YLR377C',
+ 'YPR191W',
+ 'Q0250',
+ 'YDL004W',
+ 'YJR121W',
+ 'YEL024W',
  'YDL181W',
+ 'Q0275',
  'YOR065W',
- 'YER065C']
+ 'YDR529C',
+ 'YDR377W',
+ 'Q0045',
+ 'YDR298C',
+ 'YHR051W',
+ 'YKR097W',
+ 'YBR039W',
+ 'YLR295C',
+ 'YGL187C',
+ 'YLR395C',
+ 'Q0105',
+ 'Q0085',
+ 'YPL262W',
+ 'YLL041C',
+ 'YKL016C',
+ 'YJL166W']
 \end{Verbatim}
 \end{tcolorbox}
         

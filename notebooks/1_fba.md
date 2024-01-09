@@ -1,10 +1,10 @@
-# 1. Getting Started
+# 1. Getting started with GEMs and FBA
 
-## Authors: 
+## Authors
 * Arianna Basile, MRC Toxicology Unit, University of Cambridge
 * Francisco Zorrilla, MRC Toxicology Unit, University of Cambridge
 
-## Learning Outcomes
+## Learning outcomes
 
 In this tutorial you will use [cobrapy](https://cobrapy.readthedocs.io/en/latest/) to learn the following:
 
@@ -14,6 +14,8 @@ In this tutorial you will use [cobrapy](https://cobrapy.readthedocs.io/en/latest
 * **1.4**: Inspect the genes in your model
 * **1.4.1**: Perform in-silico gene knockout experiments
 
+## Setup
+
 
 ```python
 # Import required packages
@@ -21,7 +23,6 @@ import cobra
 
 # Enable autocompleting with tab key
 %config Completer.use_jedi = False
-
 ```
 
 ## 1.1 Import a reconstruction
@@ -70,7 +71,7 @@ model_yeast
         <td>iMM904</td>
     </tr><tr>
         <td><strong>Memory address</strong></td>
-        <td>0x07ff0fba967c0</td>
+        <td>0x07fbaaa7c5670</td>
     </tr><tr>
         <td><strong>Number of metabolites</strong></td>
         <td>1226</td>
@@ -109,7 +110,7 @@ model_yeast.reactions[2]
         <td><strong>Name</strong></td><td>Exo 1 3 beta glucan glucohydrase</td>
     </tr><tr>
         <td><strong>Memory address</strong></td>
-        <td>0x07ff10a88fa90</td>
+        <td>0x07fba992dc850</td>
     </tr><tr>
         <td><strong>Stoichiometry</strong></td>
         <td>
@@ -187,7 +188,7 @@ pgi
         <td><strong>Name</strong></td><td>Glucose-6-phosphate isomerase</td>
     </tr><tr>
         <td><strong>Memory address</strong></td>
-        <td>0x07ff10b150fa0</td>
+        <td>0x07fba79f02be0</td>
     </tr><tr>
         <td><strong>Stoichiometry</strong></td>
         <td>
@@ -367,14 +368,14 @@ atp
         <td><strong>Name</strong></td><td>ATP C10H12N5O13P3</td>
     </tr><tr>
         <td><strong>Memory address</strong></td>
-        <td>0x07ff10a4e71c0</td>
+        <td>0x07fba79ac2f10</td>
     </tr><tr>
         <td><strong>Formula</strong></td><td>C10H12N5O13P3</td>
     </tr><tr>
         <td><strong>Compartment</strong></td><td>c</td>
     </tr><tr>
         <td><strong>In 149 reaction(s)</strong></td><td>
-            FMNAT, GLYTRS, DTMPK, ADK1, FACOAL180, ETHAK, RNTR1, FACOAL182, NDPK4, INSK, CYSTRS, FACOAL140, NDPK2, GLNS, AASAD1, PRAGSr, PROTRS, ACCOAC, PRPPS, NDPK9, HEX1, MEVK1, HETZK, TMPK, PRFGS, NDPK8,...</td>
+            CYSTRS, NADK, GLUCYS, GK1, UMPK, NMNAT, FACOAL181, ATPPRT, FACOAL160, URIK1, ADNK1, ATPtm_H, INSK, PRAIS, PIN3K_SC, DHFS, DHAK, HETZK, GLUK, PMPK, ACCOAC, HISTRS, NDPK1, TMDPPK, PHETRS, PRAGSr,...</td>
     </tr>
 </table>
 
@@ -456,12 +457,12 @@ pgi_gene
         <td><strong>Name</strong></td><td>PGI1</td>
     </tr><tr>
         <td><strong>Memory address</strong></td>
-        <td>0x07ff10a7dcf10</td>
+        <td>0x07fba99229c10</td>
     </tr><tr>
         <td><strong>Functional</strong></td><td>True</td>
     </tr><tr>
         <td><strong>In 3 reaction(s)</strong></td><td>
-            PGI, G6PI, G6PI3</td>
+            G6PI3, G6PI, PGI</td>
     </tr>
 </table>
 
