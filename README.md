@@ -6,21 +6,21 @@ This repo hosts training materials for the University of Cambridge [Part III Sys
 
 ### Learning outcomes
 
-#### [Exercise 1](https://github.com/franciscozorrilla/systems-biology-fba-practical/blob/main/notebooks/1_fba.ipynb)
+#### [Exercise 1](https://github.com/franciscozorrilla/systems-biology-fba-practical/blob/main/notebooks/1_fba.md)
 - **1.1**: Import a metabolic reconstruction
 - **1.2**: Inspect the reactions of your model
 - **1.3**: Inspect the metabolites in your model
 - **1.4**: Inspect the genes in your model
 - **1.4.1**: Perform in-silico gene knockout experiments
 
-#### [Exercise 2](https://github.com/franciscozorrilla/systems-biology-fba-practical/blob/main/notebooks/2_fba.ipynb)
+#### [Exercise 2](https://github.com/franciscozorrilla/systems-biology-fba-practical/blob/main/notebooks/2_fba.md)
 - **2.1**: Modify growth medium of your reconstruction
 - **2.2**: Perform gene essentiality analysis under different conditions
 - **2.3**: Case study, simulate the Carbtree effect in yeast
 
 ## 🛠️ Usage
 
-You will find everything you need for these practical exercises under the `/notebooks` folder. Each tutorial is uploaded as `.html` and `.ipynb` files, so as you edit the python notebooks you will still have the original text and results in the html files. 
+You will find everything you need for these practical exercises under the `/notebooks` folder. Each tutorial is uploaded as `.html`, `.md`, `.tex`, and `.ipynb` files. Therefore, ss you edit the python notebooks, you will still have the original text and results available in the html, markdown, and latex files. 
 
 ### Running locally
 
@@ -41,6 +41,8 @@ Launch interactive jupyter notebook session:
 ```
 $ jupyter notebook
 ```
+
+This should launch a browser window, where you can click on the `/notebooks` folder and start the exercises.
 
 ### Running on the cloud 
 
