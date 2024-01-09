@@ -1,5 +1,7 @@
 # 🦠 Systems Biology Practical: FBA with GEMs 🧬
 
+[![DOI](https://zenodo.org/badge/740951705.svg)](https://zenodo.org/doi/10.5281/zenodo.10475949)
+
 ## 📜 About
 
 This repo hosts training materials for the University of Cambridge [Part III Systems Biology course](https://www.sysbiol.cam.ac.uk/Part%20III). More specifically, these are practical exercises for the computational session on flux balance analysis (FBA) using genome-scale metabolic models (GEMs). Most of the exercises are based on the [cobrapy documentation](https://cobrapy.readthedocs.io/en/latest/).
