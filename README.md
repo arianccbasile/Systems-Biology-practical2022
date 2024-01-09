@@ -1,4 +1,4 @@
-# 🦠 Systems Biology FBA Practical 🧬
+# 🦠 Systems Biology Practical: FBA with GEMs 🧬
 
 ## 📜 About
 
