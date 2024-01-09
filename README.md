@@ -4,6 +4,20 @@
 
 This repo hosts training materials for the University of Cambridge [Part III Systems Biology course](https://www.sysbiol.cam.ac.uk/Part%20III). More specifically, these are practical exercises for the computational session on flux balance analysis (FBA) using genome-scale metabolic models (GEMs).
 
+### Learning outcomes
+
+#### [Exercise 1](https://github.com/franciscozorrilla/systems-biology-fba-practical/blob/main/notebooks/1_fba.ipynb)
+- **1.1**: Import a metabolic reconstruction
+- **1.2**: Inspect the reactions of your model
+- **1.3**: Inspect the metabolites in your model
+- **1.4**: Inspect the genes in your model
+- **1.4.1**: Perform in-silico gene knockout experiments
+
+#### [Exercise 2](https://github.com/franciscozorrilla/systems-biology-fba-practical/blob/main/notebooks/2_fba.ipynb)
+- **2.1**: Modify growth medium of your reconstruction
+- **2.2**: Perform gene essentiality analysis under different conditions
+- **2.3**: Case study, simulate the Carbtree effect in yeast
+
 ## 🛠️ Usage
 
 You will find everything you need for these practical exercises under the `/notebooks` folder. Each tutorial is uploaded as `.html` and `.ipynb` files, so as you edit the python notebooks you will still have the original text and results in the html files. 
