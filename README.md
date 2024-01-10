@@ -22,7 +22,7 @@ This repo hosts training materials for the University of Cambridge [Part III Sys
 
 ## 🛠️ Usage
 
-You will find everything you need for these practical exercises under the `/notebooks` folder. Each tutorial is uploaded as `.html`, `.md`, `.tex`, and `.ipynb` files. Therefore, ss you edit the python notebooks, you will still have the original text and results available in the html, markdown, and latex files. 
+You will find everything you need for these practical exercises under the `/notebooks` folder. Each tutorial is uploaded as `.html`, `.md`, `.tex`, and `.ipynb` files. Therefore, as you edit the python notebooks, you will still have the original text and results available in the html, markdown, and latex files. 
 
 ### Running locally
 
@@ -60,7 +60,7 @@ Alternatively launch an interactive binder session by clicking below:
 
 ## 👷 Contributors
 
-* Originally developed by Arianna Basile and Kiran Patil in 2022
+* Originally developed by Arianna Basile and Kiran Patil in 2023
 * Updated by Francisco Zorrilla and Arianna Basile in 2024
 
 
